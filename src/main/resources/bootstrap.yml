@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 'config-server'
+  profiles:
+    active: 'cloud'
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cusonar/config.git
