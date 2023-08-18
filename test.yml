@@ -2,4 +2,4 @@ server:
   port: 8500
 
 test:
-  message: Is this test?
+  message: hello hello
